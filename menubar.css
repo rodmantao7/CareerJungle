@@ -1,0 +1,51 @@
+.bg-gr {
+	background-color: #5bbc2e;
+}
+.navbar-nav{
+	padding-left: 50px;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
+	font-size: 13px;
+	font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: rgba(255,255,255,0.5);
+}
+.modal-content{
+	width: 60%;
+}
+.my_btn{
+	background-color: #489C22;
+    max-height: 100px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+.btn:hover{
+	color: rgba(255,255,255,0.5);
+}
+.navbar-brand .brand-logo {
+	width: 65px;
+}
+.navbar-nav .nav-item .nav-link {
+	font-size: 18px;
+	padding-right: 30px;
+}
+.button_loggin {
+	text-decoration: none !important;
+	color: white;
+  width: 50%;
+}
+.container-fluid{
+	height: 50px;
+	background-color: #141414
+}
+.footer{
+	color: #e0e0e0;
+	font-size: 12px;
+	font-weight: 600;
+}
+.footer-box{
+	padding: 3px;
+}
