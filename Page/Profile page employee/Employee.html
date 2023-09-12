@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap"
+			rel="stylesheet"/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.19/dist/shoelace/shoelace.css">
+		<link
+		rel="stylesheet"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+		crossorigin="anonymous"
+		/>
+	<link rel="stylesheet" href="../../menubar.css">
+    <link rel="stylesheet" href="./Employee.css"/>
+	<link rel="stylesheet" href="./upload.css">
+	</head>
+	<body>
+		<header class="bg-gr">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<a class="navbar-brand" href="#"
+						><img class="brand-logo" src="../../Image/Career Jungle.png" alt="CAREER JUNGLE"
+					/></a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="../ListCV/ListCV.html">Job List</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Features</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">About Us</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Team</a>
+							</li>
+						</ul>
+						<div class="col-4 col-sm-3 col-md-3 ">
+							<button
+								type="button"
+								class="my_btn btn d-block ml-auto"
+							>
+							 <a class="button_loggin" href="../Login/login.html">LOG IN & SIGN UP</a>	
+							</button>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<div id="ProfilePage">
+			<div id="LeftSideContent">
+				<div id="FirstPart">
+					<div id="profilepic">
+						<img
+							src="https://images.pexels.com/photos/1339536/pexels-photo-1339536.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+							alt=""
+						/>
+					</div>
+					<div id="Infos">
+						<h2 id="Name">Pham Bao Lam</h2>
+						<h3 class="text">Chức Danh</h3>
+						<h3 id="Status" class="bold">Mới tốt nghiệp</h3>
+						<h3 class="text">Công ty gần đây nhất</h3>
+						<h3 class="text">Bằng cấp cao nhất</h3>
+						<h3>
+							Mức độ hoàn chỉnh: <span class="bold">Chưa hoàn chỉnh</span>
+						</h3>
+						<button id="update">Cập nhật hồ sơ</button>
+					</div>
+				</div>
+				<div id="SecondPart">
+					<h3 id=parameter>Cài đặt</h3>
+					<div id="uploadfiles">
+            <h3>Hồ sơ tìm kiếm</h3>
+            <div id="uploadprofile">
+              <sl-dialog label="Dialog" class="dialog-overview">
+                <div class="upload">
+                  <div class="upload-files">
+                   <header>
+                    <p>
+                     <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                     <span class="up">up</span>
+                     <span class="load">load</span>
+                    </p>
+                   </header>
+                   <div class="body" id="drop">
+                    <i class="fa fa-file-text-o pointer-none" aria-hidden="true"></i>
+                    <p class="pointer-none"><b>Drag and drop</b> files here <br /> or <a href="" id="triggerFile">browse</a> to begin the upload</p>
+                       <input type="file" multiple="multiple" />
+                   </div>
+                   <footer>
+                    <div class="divider">
+                     <span><AR>FILES</AR></span>
+                    </div>
+                    <div class="list-files">
+                     <!--   template   -->
+                    </div>
+                       <button class="importar">UPDATE FILES</button>
+                   </footer>
+                  </div>
+                 </div>
+                 
+              </sl-dialog>
+              
+              <sl-button>Tải hồ sơ</sl-button>
+              <h4>Định dạng file chỉ có thể là .doc, .docx và pdf, files phải nhỏ hơn 2MB.</h4>
+              
+            </div>
+          </div>
+          <div id="selectbar">
+            <sl-dropdown>
+              <sl-button slot="trigger" caret>Nơi làm việc mong muốn</sl-button>
+              <sl-menu>
+                <sl-menu-item>Hà Nội</sl-menu-item>
+                <sl-menu-item>Thành Phố Hồ Chí Minh</sl-menu-item>
+                <sl-menu-item>Đà Nẵng</sl-menu-item>
+                <sl-menu-item>Hải Phòng</sl-menu-item>
+                <sl-menu-item>Huế</sl-menu-item>
+          </div>
+				</div>
+			</div>
+
+			<div id="RightSideContent">
+				<div id="Stats">
+					<div class="Box">
+						<p id="orange">0</p>
+						<h3 class="same">NHÀ TUYỂN DỤNG XEM HỒ SƠ</h3>
+						<h3 class="hover">Kiểm tra nhà tuyển dụng xem hồ sơ</h3>
+					</div>
+					<div class="Box">
+						<p id="green">0</p>
+						<h3 class="same">THÔNG BÁO VIỆC LÀM</h3>
+						<h3 class="hover">Quản lý thông báo việc làm</h3>
+					</div>
+					<div class="Box">
+						<p id="blue">0</p>
+						<h3 class="same">VIỆC LÀM CỦA TÔI</h3>
+						<div id="buttons">
+							<div class="colums">
+								<button id="GG">0</button>
+								<p class="color">Đã gửi</p>
+							</div>
+							<div class="colums">
+								<button id="guennec">0</button>
+								<p class="color">Đã xem</p>
+							</div>
+							<div class="colums">
+								<button id="guegue">0</button>
+								<p class="color">Đã đóng</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="Jobs">
+					<h2>Việc làm bạn sẽ yêu thích</h2>
+
+					<div class="list">
+						<img
+							src="https://images.vietnamworks.com/pictureofcompany/24/10946904.png"
+							alt=""
+						/>
+						<div>
+							<h3 class="jobname">[URGENT] Senior Electrical Engineer</h3>
+							<h3 class="companyname">NAVIGOS SEARCH'S CLIENT</h3>
+						</div>
+					</div>
+
+					<div class="list">
+						<img
+							src="https://images.vietnamworks.com/pictureofcompany/e3/23635.GIF"
+							alt=""
+						/>
+						<div>
+							<h3 class="jobname">Electrical Engineer</h3>
+							<h3 class="companyname">PERSTIMA VIETNAM CO., LTD.</h3>
+						</div>
+					</div>
+
+					<div class="list">
+						<img
+							src="https://images.vietnamworks.com/pictureofcompany/11/10957434.png"
+							alt=""
+						/>
+						<div>
+							<h3 class="jobname">Maintenance Supervisor</h3>
+							<h3 class="companyname">CÔNG TY TNHH FRAMAS VIỆT NAM</h3>
+						</div>
+					</div>
+
+					<div class="list">
+						<img
+							src="https://images.vietnamworks.com/pictureofcompany/c2/10940565.png"
+							alt=""
+						/>
+						<div>
+							<h3 class="jobname">
+								[District 9][Urgent] Automation Maintenance Supervisor - Israel
+								Company
+							</h3>
+							<h3 class="companyname">
+								A GLOBAL LEADER IN SMART ENERGY TECHNOLOGY FROM ISRAEL
+							</h3>
+						</div>
+					</div>
+
+					<div class="list">
+						<img
+							src="https://images.vietnamworks.com/pictureofcompany/24/10946904.png"
+							alt=""
+						/>
+						<div>
+							<h3 class="jobname">[URGENT] Senior Electrical Engineer</h3>
+							<h3 class="companyname">NAVIGOS SEARCH'S CLIENT</h3>
+						</div>
+					</div>
+
+					<div class="list">
+						<img
+							src="https://images.vietnamworks.com/pictureofcompany/24/10946904.png"
+							alt=""
+						/>
+						<div>
+							<h3 class="jobname">URGENT - Maintenance Supervisor</h3>
+							<h3 class="companyname">NAVIGOS SEARCH</h3>
+						</div>
+					</div>
+
+					<div class="list">
+						<img
+							src="https://images.vietnamworks.com/pictureofcompany/c8/10235364.jpg"
+							alt=""
+						/>
+						<div>
+							<h3 class="jobname">
+								Technical Supervisor (Equipment Troubleshooting)
+							</h3>
+							<h3 class="companyname">INTEL PRODUCTS VIETNAM</h3>
+						</div>
+					</div>
+
+					<div class="list">
+						<img
+							src="https://images.vietnamworks.com/pictureofcompany/c2/10940565.png"
+							alt=""
+						/>
+						<div>
+							<h3 class="jobname">Senior Process Maintenance Engineer</h3>
+							<h3 class="companyname">TERUMO BCT VIET NAM</h3>
+						</div>
+					</div>
+
+					<div class="list">
+						<img
+							src="https://images.vietnamworks.com/pictureofcompany/5c/10730007.png"
+							alt=""
+						/>
+						<div>
+							<h3 class="jobname">
+								Facility Electrical Engineer (Maintenance)
+							</h3>
+							<h3 class="companyname">TORRECID VIETNAM CO;LTD</h3>
+						</div>
+					</div>
+
+					<div class="list">
+						<img
+							src="https://images.vietnamworks.com/pictureofcompany/30/10311268.png"
+							alt=""
+						/>
+						<div>
+							<h3 class="jobname">
+								Senior Facility Officer (Electrical/ Electronic)
+							</h3>
+							<h3 class="companyname">ROBERT BOSCH ENGINEERING VIETNAM</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+    </div>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.19/dist/shoelace/shoelace.esm.js"></script>
+    <script src="./employee.js"></script>
+    <script src="./upload.js"></script>
+	</body>
+</html>

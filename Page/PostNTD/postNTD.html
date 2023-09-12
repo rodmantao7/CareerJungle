@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="../../menubar.css">
+    <link rel="stylesheet" href="postNTD.css">
+</head>
+
+<body>
+    <div id="all">
+        <header class="bg-gr">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<a class="navbar-brand" href="../Home/homepage.html"
+						><img class="brand-logo" src="../../Image/Career Jungle.png" alt="CAREER JUNGLE"
+					/></a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="../ListCV/ListCV.html">Job List</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../PostNTD/postNTD.html">Post Job</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">About Us</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../CandidateList/candidateList.html">Candidate</a>
+							</li>
+						</ul>
+						<div class="col-4 col-sm-3 col-md-3 ">
+							<button
+								type="button"
+								class="my_btn btn d-block ml-auto"
+							>
+							 <a class="button_loggin" href="../Profile/profileNTD.html">Profile</a>	
+							</button>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+        <div id="wrap">
+            <div id="body">
+                <div>
+                    <div>
+                        <h2 class="head">
+                            <div class="fullimg"><img class="suitcase" src="./travel.svg" alt=""></div>Mô Tả Công Việc
+                        </h2>
+                    </div>
+                    <div class="jobinfo">
+                        <p class="para">Chức Danh</p>
+                        <input class="input" style="color: #999;" type="text" placeholder="Eg. Senior UX Designer">
+                    </div>
+                    <div class="jobinfo">
+                        <p class="para">Cấp Bậc</p>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle menu" data-toggle="dropdown">Vui lòng
+                                chọn</button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item item" href="">Vui lòng chọn</a>
+                                <a class="dropdown-item item" href="">Mới tốt nghiệp</a>
+                                <a class="dropdown-item item" href="">Nhân viên</a>
+                                <a class="dropdown-item item" href="">Trưởng phòng</a>
+                                <a class="dropdown-item item" href="">Giám đốc và cấp cao hơn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jobinfo">
+                        <p class="para">Loại Việc Làm</p>
+                        <button class="btn btn-secondary dropdown-toggle menu" data-toggle="dropdown">Toàn thời
+                            gian</button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item item" href="">Toàn thời gian</a>
+                            <a class="dropdown-item item" href="">Bán thời gian</a>
+                            <a class="dropdown-item item" href="">Thực tập</a>
+                            <a class="dropdown-item item" href="">Nghề tự do</a>
+                            <a class="dropdown-item item" href="">Hợp đồng thời vụ</a>
+                            <a class="dropdown-item item" href="">Khác</a>
+                        </div>
+                    </div>
+                    <div class="jobinfo">
+                        <div class="para">
+                            <p class="job-title">Ngành nghề</p>
+                            <p class="under">(Tối Đa 3 Ngành)</p>
+                        </div>
+                        <input class="input" style="color:#999" type="text" placeholder="Vui lòng chọn">
+                    </div>
+                    <div class="jobinfo">
+                        <div class="para">
+                            <p class="job-title">Địa Điểm Làm Việc</p>
+                            <p class="under">(Tối Đa 3 Địa Điểm)</p>
+                        </div>
+                        <div class="location">
+                            <input class="input" type="text" placeholder="Chọn 1 địa điểm làm việc">
+                            <input id="locate" class="input" type="text" placeholder="+ Thêm địa điểm làm việc">
+                        </div>
+                    </div>
+                    <div class="jobinfo">
+                        <p class="para">Mô Tả</p>
+                        <div class="location">
+                            <input class="input" type="text" placeholder="Nhập mô tả công việc">
+                            <div class="text">
+                                <p class="paragraph">(Bạn có thể nhập 14500 ký tự)</p>
+                                <a href="">Xem mô tả công việc mẫu</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jobinfo">
+                        <p class="para">Yêu Cầu Công Việc</p>
+                        <div class="location">
+                            <input class="input" type="text" placeholder="Nhập yêu cầu công việc">
+                            <div class="text">
+                                <p class="paragraph">(Bạn có thể nhập 14500 ký tự)</p>
+                                <a href="">Xem mô tả công việc mẫu</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jobinfo">
+                        <div class="para">
+                            <p class="job-title">Mức Lương</p>
+                            <p class="under">(USD)</p>
+                        </div>
+                        <div class="location" id="tien">
+                            <button class="btn btn-secondary dropdown-toggle price" id="money"
+                                data-toggle="dropdown">Nhập mức lương tối thiểu</button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item start" href="" class="disabled">Từ:</a>
+                                <a class="dropdown-item start" href="">0</a>
+                                <a class="dropdown-item start" href="">500</a>
+                                <a class="dropdown-item start" href="">1000</a>
+                                <a class="dropdown-item start" href="">1500</a>
+                                <a class="dropdown-item start" href="">2000</a>
+                                <a class="dropdown-item start" href="">3000</a>
+                                <a class="dropdown-item start" href="">5000</a>
+                                <a class="dropdown-item start" href="">10000</a>
+                            </div>
+                            <button class="btn btn-secondary dropdown-toggle price" data-toggle="dropdown">Nhập mức
+                                lương tối đa</button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item start" href="" class="disabled">Đến:</a>
+                                <a class="dropdown-item start" href="">0</a>
+                                <a class="dropdown-item start" href="">500</a>
+                                <a class="dropdown-item start" href="">1000</a>
+                                <a class="dropdown-item start" href="">1500</a>
+                                <a class="dropdown-item start" href="">2000</a>
+                                <a class="dropdown-item start" href="">3000</a>
+                                <a class="dropdown-item start" href="">5000</a>
+                                <a class="dropdown-item start" href="">10000</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jobinfo">
+                        <div class="para">
+                            <p class="job-title">Kỹ Năng</p>
+                            <p class="under">(Tối đa 5 kỹ năng)</p>
+                        </div>
+                        <input class="input" type="text" placeholder="Ví dụ:Giao tiếp, Tiếng anh,...">
+                    </div>
+                    <div class="jobinfo">
+                        <p class="para">Yêu Cầu Thư Giới Thiệu?</p>
+                        <div id="question">
+                            <input type="radio" id="male" name="gender" value="x">
+                            <label for="x">Bắt buộc</label><br>
+                            <input type="radio" id="female" name="gender" value="y">
+                            <label for="y">Hiển thị nhưng không bắt buộc</label><br>
+                            <input type="radio" id="other" name="gender" value="z">
+                            <label for="z">Không hiển thị</label>
+                            <p style="font-size: 11.9px; color: #888888; font-style: italic; font-weight: bold;"><img
+                                    id="caution" src="./caution.svg" alt="">Yêu cầu thư giới thiệu có thể làm giảm số
+                                lượng hồ sơ ứng tuyển. Không hiển thị trên thiết bị di động và khi ứng tuyển nhiều công
+                                việc cùng lúc.</p>
+                        </div>
+                    </div>
+                    <div class="jobinfo">
+                        <p class="para">Nhận Hồ Sơ Bằng Ngôn Ngữ</p>
+                        <button class="btn btn-secondary dropdown-toggle menu" data-toggle="dropdown">Bất kỳ</button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item item" href="">Bất kỳ</a>
+                            <a class="dropdown-item item" href="">Tiếng Anh</a>
+                            <a class="dropdown-item item" href="">Tiếng Việt</a>
+                            <a class="dropdown-item item" href="">Tiếng Nhật</a>
+                            <a class="dropdown-item item" href="">Tiếng Trung Quốc</a>
+                            <a class="dropdown-item item" href="">Tiếng Hàn Quốc</a>
+                            <a class="dropdown-item item" href="">Tiếng Pháp</a>
+                            <a class="dropdown-item item" href="">Tiếng Tây Ban Nha</a>
+                            <a class="dropdown-item item" href="">Tiếng Ý</a>
+                        </div>
+                    </div>
+                    <div class="jobinfo">
+                        <p class="para">Người Liên Hệ</p>
+                        <input class="input" type="text" placeholder="Nguyễn Văn A">
+                    </div>
+                    <div class="jobinfo">
+                        <p class="para">Địa Chỉ Email Nhận Hồ Sơ</p>
+                        <div id="email">
+                            <input class="input" type="text"
+                                placeholder="Ví dụ: hr@vietnamworks.com, contact@vietnamworks.com">
+                            <p class="word" style="font-size: 11.9px; color: #999;font-style: italic;">(Địa chỉ email sẽ
+                                được ẩn với người tìm việc. Bạn có thể nhập nhiều địa chỉ cách
+                                nhau
+                                bằng
+                                dấu
+                                "," và dấu ";".)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashed">
+
+                </div>
+                <div>
+                    <div id="congty">
+                        <div>
+                            <h2 class="head">
+                                <div class="fullimg"><img class="suitcase" src="./company.svg" alt=""></div>Công ty
+                            </h2>
+                        </div>
+                        <a href="" style="color: #0e7ccd;font-size: 24px;">Hoàn tất</a>
+                    </div>
+                    <div class="jobinfo">
+                        <p class="para">Tên Công Ty</p>
+                        <input class="input" type="text" placeholder="Ví dụ: VietnamWorks">
+                    </div>
+                    <div class="jobinfo">
+                        <div class="para">
+                            <p class="job-title">Quy Mô Công Ty</p>
+                            <p class="under">(Không bắt buộc)</p>
+                        </div>
+                        <input class="input" type="text" placeholder="Vui lòng chọn">
+                    </div>
+                    <div class="jobinfo">
+                        <div class="para">
+                            <p class="job-title">Địa Chỉ Công Ty</p>
+                            <p class="under">(Không bắt buộc)</p>
+                        </div>
+                        <input class="input" type="text"
+                            placeholder="Ví dụ: Lầu 2, Toà nhà Arirang, 131 Trần Huy Liệu, Phường 8, Quận Phú Nhuận, Tp.HCM">
+                    </div>
+                    <div class="jobinfo">
+                        <p class="para">Thông Tin Công Ty</p>
+                        <div>
+                            <input class="input" type="text" placeholder="Thông tin công ty...">
+                            <p class="word" style="font-size: 11.9px;font-style: italic;color: #999;">(Bạn có thể nhập
+                                10000 ký tự)</p>
+                        </div>
+                    </div>
+                    <div class="jobinfo">
+                        <p class="para">Phúc Lợi Từ Công Ty</p>
+                        <div class="location">
+                            <input class="input" id="benefit" type="text" placeholder="Nhập chi tiết phúc lợi">
+                            <a href="" id="addition">+ Thêm phúc lợi</a>
+                        </div>
+                    </div>
+                    <div class="jobinfo">
+                        <p class="para">Hồ Sơ Mặc Định</p>
+                        <input type="checkbox" id="checkbox1" name="checkbox1" value="Save">
+                        <label for="checkbox1">Lưu thông tin công ty phía trên vào hồ sơ công ty mặc định</label><br>
+                    </div>
+                </div>
+                <div class="dashed">
+
+                </div>
+                <div>
+                    <div class="jobinfo">
+                        <p class="para">Logo Công Ty</p>
+                        <div>
+                            <button class="upload">
+                                <img src="./upload.svg" alt="">
+                                <p>Tải logo</p>
+                            </button>
+                            <p class="word" style="font-size: 11.9px; color: #999;">Tập tin với phần mở rộng .jpg .jpeg
+                                .png .gif và kích thước < 1MB</p>
+                                    <input type="checkbox" id="checkbox2" name="checkbox2" value="Logo">
+                                    <label for="checkbox2">Hiển thị logo</label><br>
+                        </div>
+                    </div>
+                    <div class="jobinfo">
+                        <div class="para">
+                            <p class="job-title">Hình Ảnh Công Ty</p>
+                            <p class="under">(Không bắt buộc)</p>
+                        </div>
+                        <div>
+                            <button class="upload">
+                                <img src="./upload.svg" alt="">
+                                <p>Tải hình ảnh</p>
+                            </button>
+                            <p class="same word" id="note">Ghi chú: Tất cả tin tuyển dụng đều sử dụng chung những hình
+                                ảnh đã upload tại
+                                đây.
+                            </p>
+                            <p class="same" style="font-style: italic;">(Tập tin với phần mở rộng .jpg .jpeg .png .gif
+                                và kích thước < 1MB)</p>
+                        </div>
+                    </div>
+                    <div class="jobinfo">
+                        <div class="para">
+                            <p class="job-title">Video Công Ty</p>
+                            <p class="under">(Không bắt buộc)</p>
+                        </div>
+                        <input class="input" type="text"
+                            placeholder="Sao chép và dán từ liên kết Youtube của bạn vào đây">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="fixed-bar">
+            <button id="save">Lưu Nháp</button>
+            <a href="../Profile/profileNTD.html"><button id="secondsave">Lưu và Tiếp Tục</button></a>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="postNTD.js"></script>
+</body>
+
+</html>

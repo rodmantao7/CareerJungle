@@ -1,0 +1,135 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Nunito", sans-serif;
+}
+
+#LogInPage {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#LeftSideContent {
+	background-color: #58af9b;
+	width: 40%; 		
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	font-weight: 700;
+	font: size 30px;
+	padding-left: 70px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+}
+
+#RightSideContent {
+	font-weight: 700;
+	width: 60%;
+	height: 80vh;
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #148653;
+}
+
+#LogInInfo input {
+	border: none;
+	border-radius: 5px;
+	padding: 12px;
+	background-color: #f0f4f3;
+	display: flex;
+	width: 350px;
+	padding-left: 30px;
+	align-items: center;
+	color: #333;
+	font-weight: 600;
+	justify-content: space-between;
+	margin-top: 10px;
+	padding-top: 20px;
+}
+
+#MinorDetails {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #333;
+	font-weight: 600;
+}
+
+#CreateAccount {
+	padding: 15px 65px;
+	background-color: #58af9b;
+	border: none;
+	color: white;
+	border-radius: 40px;
+	display: flex;
+	height: 50px;
+	align-items: center;
+	font-size: 20px;
+	margin-top: 5%;
+}
+
+.LogInOption img {
+	width: 60%;
+}
+
+.LogInOption {
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+}
+
+#LogInOptions {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 30px;
+	width: 400px;
+}
+
+.Userinfo {
+	color: #333;
+	font-weight: 400;
+	width: 10px;
+	height: 10px;
+}
+
+#SignUp {
+	border: 1px solid white;
+	border-radius: 40px;
+	font-weight: 700;
+	padding: 15px 45px;
+	color: white;
+	background-color: #58af9b;
+	width: 200px;
+	height: 70px;
+	padding-top: 20px;
+}
+
+#RightSideContent h1 {
+	font-size: 60px;
+	padding-bottom: 0%;
+}
+
+#LogInInfo h6 {
+	color: #333;
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+	margin-bottom: 0px;
+	padding-top: 0%;
+}
+
+#LogInInfo hr {
+	width: 160px;
+	height: 1px;
+	border: none;
+	background: #aac3be;
+	padding-top: 0%;
+}

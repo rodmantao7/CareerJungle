@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #444;
+  }
+  
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    color: #222;
+  }
+  
+  a {
+    color: #489C22;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  #header {
+    width: 100%;
+    height: 420px;
+    background: #333e4b url(https://i.imgur.com/x9fISQA.jpg) no-repeat center center;
+    background-size: cover;
+  }
+  
+  .wrapper {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  #navbar {
+    background-color: white;
+    border-top: 5px solid #489C22;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    margin: 0 0 0 0;
+  }
+  
+  .cf:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .main-nav {
+    margin: 0 0 0 200px;
+    padding: 0;
+  }
+  
+  .main-nav li {
+    display: inline-block;
+    float: left;
+  }
+  .main-nav li a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: #888;
+  }
+  .main-nav li a:hover {
+    color: #333;
+    background: whitesmoke;
+  }
+  
+  .avatar {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: white url(https://i.imgur.com/1wcf0Rm.png) no-repeat center center;
+    background-size: 180px 180px;
+    border-radius: 5px;
+    position: absolute;
+    top: -75px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  }
+  
+  .contact ul {
+    margin: 0;
+    padding: 10px 0 10px 220px;
+    list-style: none;
+    font-size: 16px;
+    margin-bottom: -20px;
+    color: #666;
+  }
+  .contact ul li {
+    display: inline;
+    margin: 0 20px 0 0;
+  }
+  .contact ul li .fa {
+    font-size: 21px;
+    position: relative;
+    top: 3px;
+    margin: 0 0 0 0;
+  }
+  
+  .stage {
+    padding: 80px 0;
+  }
+  .stage:nth-child(odd) {
+    background-color: #edf1f3;
+  }
+  .stage:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .job-meta {
+    width: 320px;
+    float: right;
+    background-color: #edf1f3;
+    box-sizing: border-box;
+    margin: 0 0 0 0;
+    padding: 20px;
+    position: absolute;
+    right: 0px;
+  }
+  .job-meta .meta-data {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+  }
+  .job-meta .meta-data li {
+    margin: 0 0 5px 0;
+  }
+  .job-meta .meta-data .meta-title {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  .shadow {
+    transition: box-shadow 400ms;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 0 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+    padding: 7px 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+  }
+  
+  textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .resume {
+    font-size: 14px;
+    text-align: center;
+    border: 2px dashed #ccc;
+    padding: 10px;
+  }
+  .resume h3 {
+    font-size: 16px;
+    margin: 0;
+  }
+  .resume a {
+    color: #0066ff;
+  }
+  
+  h1 {
+    padding: 0 0 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .job-desc {
+    width: 600px;
+  }
+  .job-desc .skills {
+    background-color: #edf1f3;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #2ecc71;
+    color: white;
+    border-radius: 2px;
+    padding: 10px 40px;
+    margin: 8px 0;
+  }
+  .btn:hover {
+    background-color: #27ae60;
+    text-decoration: none;
+  }
+  
+  .job-meta .btn {
+    font-size: 14px;
+    width: 250px;
+  }
+  
+  .btn-linkedin {
+    background: #007bb6;
+    margin: 0 0 20px;
+    padding: 0 0 0 20px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .btn-linkedin .fa {
+    font-size: 24px;
+    padding: 0 0 0 20px;
+    float: right;
+    background: #005983;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .btn-linkedin:hover {
+    background: #005983;
+  }
+  
+  .btn-jobing {
+    background: #0066ff;
+    margin: 0 0 20px;
+    padding: 0 0 0 20px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .btn-jobing .j {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 0 0 20px;
+    margin: 0;
+    float: right;
+    background: #0052cc;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .btn-jobing:hover {
+    background: #0052cc;
+  }
+  
+  .job-meta .btn-apply {
+    font-size: 18px;
+    margin: 40px 0 0 0;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+  }
+  .job-meta .btn-apply .fa {
+    margin: 0 10px 0 0;
+  }
+  

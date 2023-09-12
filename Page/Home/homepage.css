@@ -1,0 +1,214 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	
+}
+.bg-gr {
+	background-color: #5bbc2e;
+}
+.navbar-nav{
+	padding-left: 50px;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
+	font-size: 13px;
+	font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: rgba(255,255,255,0.5);
+}
+.modal-content{
+	width: 60%;
+}
+.my_btn{
+	background-color: #489C22;
+    max-height: 100px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+.btn:hover{
+	color: rgba(255,255,255,0.5);
+}
+.footer-box{
+	padding: 3px;
+}
+.carousel-control-next-icon{
+	background-image: url(../images/arrow-right.png);
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 60px;
+}
+.carousel-control-prev-icon{
+	background-image: url(../images/arrow-left.png);
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 60px;
+}
+.carousel-caption h5{
+	font-size: 48px;
+	font-weight: 800;
+	color: #000;
+}
+.carousel-caption p{
+	color: #000;
+}
+.carousel-indicators li{
+	width: 10px;
+	height: 10px;
+	border: 2px solid #5bbc2e;
+	background-color: transparent;
+	opacity: 5;
+	border-radius: 50%;
+}
+.carousel-block .carousel-indicators .active{
+	background-color: #5bbc2e;
+}
+.carousel-indicators li:hover{
+	background-color: rgba(0, 230, 64, 0.5);
+}
+.title-span{
+	color: #5bbc2e;
+}
+.title-h3-h5{
+	font-size: 30px;
+	font-weight: 800;
+	color: #8d8d8d;
+}
+@media screen and (max-width: 768px){
+
+	.block-text{
+		order: 1;
+	}
+}
+
+.row p{
+	padding-right: 100px;
+	font-size: 15px;
+	font-weight: 400;
+	color: #767575;
+}
+.works-list{
+	list-style-image: url(../images/arrow.png);
+	padding-right: 100px;
+	font-size: 15px;
+	font-weight: 400;
+	color: #767575;
+}
+.bg-img{
+	background-image: url(../images/pic-big-2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height: 247px;
+}
+.card{
+	border-radius: 0;
+	margin: 10px;
+}
+.btn{
+	color: #fff;
+	font-size: 12px;
+	font-weight: 800; 
+	border-radius: 0;
+	
+}
+.card-title{
+	font-size: 12px;
+	color: #4b4b4b;
+	font-weight: 800;
+}
+.card-img-top{
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.container-fluid{
+	height: 50px;
+	background-color: #141414
+}
+.footer{
+	color: #e0e0e0;
+	font-size: 12px;
+	font-weight: 600;
+}
+.carousel-inner{
+  height: 450px;
+}
+.navbar-brand .brand-logo {
+	width: 65px;
+}
+.navbar-nav .nav-item .nav-link {
+	font-size: 18px;
+	padding-right: 30px;
+}
+.button_loggin {
+	text-decoration: none !important;
+	color: white;
+	width: 50%;
+}
+.view-all-btn{
+	padding-bottom: 30px;
+} 
+.featured-title{
+	padding-top: 30px;
+	font-weight: bold;
+}
+.pics{
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+.panel{
+	display: flex;
+}
+.img1{
+	width: 500px;
+	height: 100%;
+}
+.img2{
+	width: 400px;
+	height: 90%;
+}
+.mt-5 .my-5{
+	margin-top: 0rem !important;
+	margin-bottom: 5rem;
+}
+.nav-item{
+	width: 150px;
+}
+ .col-lg-6 {
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+}
+.ad{
+	display: flex;
+}
+.ad_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: baseline;
+	padding-left: 50px;
+}
+.ad_img{
+	width: 700px;
+	height: 500px;
+	background-image: linear-gradient(to right, transparent, white), url('https://images.vietnamworks.com/logo/Feature Job Corner - Sales - July 2020 (VI) (1)_112132.png');
+	background-size: cover;
+}
+.ad_btn{
+	background-color: #5bbc2e;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: 0.3s ;
+    padding: 10px 34px;
+    height: auto;
+    margin-top: 10px;
+	border-color: #5bbc2e;
+	border: none;
+}
+.ad_text_real{
+	font-size: 24px;
+    font-weight: 200;
+}

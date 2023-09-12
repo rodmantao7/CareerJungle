@@ -1,0 +1,324 @@
+body {
+	padding-top: 0;
+	margin: 0;
+	font-family: "Nunito", sans-serif;
+	/* background-color: red; */
+	background-color: #fff;
+}
+
+#ProfilePage {
+	padding-left: 147px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 130px;
+	padding-right: 130px;
+	padding-top: 70px;
+}
+
+#LeftSideContent {
+	width: 25%;
+	height: 100vh;
+	padding-top: 0;
+	padding-left: 147px;
+	padding-right: 15px;
+}
+
+#RightSideContent {
+	width: 75%;
+	height: 100vh;
+}
+
+#FirstPart {
+	/* background-color: teal; */
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#FirstPart img {
+	width: 20%;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	object-fit: cover;
+	/* position: absolute; */
+	/* padding-left: 20px; */
+}
+
+#profilepic {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.text {
+	color: #333;
+	font-weight: 200;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#Name {
+	color: #212529;
+	font-weight: 600;
+	text-align: center;
+}
+
+#Infos {
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-bottom: 40px;
+}
+
+#update {
+	border: 2px solid #f7941d;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 150px;
+	color: #f7941d;
+	background-color: white;
+	border-radius: 5px;
+	/* padding-left: 20px; */
+}
+
+#update:hover {
+	background-color: #f7941d;
+	color: white;
+	cursor: pointer;
+	transition: 0.3s all;
+}
+
+#Status {
+	color: #333;
+	font-weight: 700;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#Infos .bold {
+	font-weight: 700;
+}
+
+#Infos h3 {
+	font-weight: 500;
+	font-size: 15px;
+}
+
+#Stats {
+	display: flex;
+	justify-content: space-between;
+}
+
+#orange {
+	font-size: 50px;
+	text-align: center;
+	color: #f7941d;
+	margin-top: 2px;
+	margin-bottom: 0;
+}
+
+.Box {
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	padding: 30px;
+	width: 30%;
+	/* margin-right: 15px; */
+	width: 25%;
+}
+
+.hover:hover {
+	color: #f7941d;
+}
+
+.color {
+	border: none;
+	text-align: center;
+	background-color: white;
+}
+
+#buttons {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#green {
+	font-size: 50px;
+	text-align: center;
+	color: #5fb661;
+	margin-top: 2px;
+	margin-bottom: 0;
+}
+
+#blue {
+	font-size: 50px;
+	text-align: center;
+	color: #1fbaef;
+	margin-top: 2px;
+	margin-bottom: 0;
+}
+
+.color:hover {
+	color: #f7941d;
+}
+.same {
+	font-size: 15px;
+	text-align: center;
+	font-weight: 400;
+}
+
+.hover {
+	font-size: 13px;
+	text-align: center;
+	font-weight: 400;
+}
+
+#GG {
+	background-color: #5fb661;
+	border: none;
+	border-radius: 5px;
+	width: 50px;
+}
+
+#guennec {
+	background-color: #f7941d;
+	border: none;
+	border-radius: 5px;
+	width: 50px;
+}
+
+#guegue {
+	background-color: #fd6a6a;
+	border: none;
+	border-radius: 5px;
+	width: 50px;
+	/* display: block; */
+}
+
+#Jobs {
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#Jobs h2 {
+	padding-left: 20px;
+	font-size: 20px;
+	font-weight: 400;
+	padding-top: 25px;
+}
+
+.jobname {
+	font-size: 15px;
+	font-weight: 400;
+	/* padding-left: 200px; */
+}
+
+.jobname:hover {
+	color: #f7941d;
+}
+
+.companyname {
+	font-size: 15px;
+	font-weight: 200;
+	/* padding-left: 200px; */
+}
+
+.list {
+	/* margin: 5px 0; */
+	border-top: 1px solid rgba(229, 229, 229, 0.9);
+	padding-top: 15px;
+	padding-bottom: 10px;
+	/* padding-left: 20px; */
+	display: flex;
+	justify-content: flex-start;
+}
+
+#Jobs {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.list img {
+	margin-right: 30px;
+	width: 15%;
+	object-fit: contain;
+}
+
+#uploadfiles h3 {
+	font-size: 15px;
+	font-weight: 300;
+	padding-left: 30px;
+}
+
+#selectbar h3 {
+	font-size: 15px;
+	font-weight: 300;
+	padding-left: 30px;
+}
+
+#settings {
+	font-weight: 700;
+	font: size 20px;
+}
+
+#SecondPart {
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#selectbar {
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 40px;
+	padding-bottom: 40px;
+}
+
+#selectbar sl-dropdown {
+	width: 100%;
+}
+
+#selectbar sl-button {
+	width: 100%;
+}
+
+#parameter {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#uploadprofile {
+	border: dashed #aaaaaa;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	align-items: center;
+	padding: 10px
+}
+
+#uploadprofile h4 {
+	font-size: 10px;
+	font-weight: 200;
+	padding-left: 30px;
+}
+
+#buton {
+	margin-left: 30px;
+	margin-top: 5px;
+	border: none;
+}
+
+#selectbar h3{
+	padding-left: 30px;
+}
+
+#uploadfiles {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#parameter{
+	background-color: #f5f5f5;
+	border-color: #ddd;
+}

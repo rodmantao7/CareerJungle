@@ -1,0 +1,144 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Nunito", sans-serif;
+}
+
+#LogInPage {
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: center;
+}
+
+#buttons {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0;
+}
+
+#LeftSideContent {
+	background-image: url("https://images.unsplash.com/photo-1506567859980-33c9c423649f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80");
+	width: 30%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-weight: 700;
+	font-size: 30px;
+	color: orangered;
+	padding-left: 20px;
+}
+
+.RightSideContent {
+	display: flex;
+	justify-content: center;
+	width: 70%;
+	height: 80vh;
+	padding-top: 50px;
+}
+
+.SignInOption {
+	padding: 15px 65px;
+	background-color: tomato;
+	border: none;
+	color: white;
+	font-weight: 600;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 300px;
+}
+
+.OtherButton {
+	width: 45px;
+	height: 45px;
+	border-radius: 5px;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.OtherButton img {
+	width: 60%;
+}
+
+.SignInOption img {
+	width: 10%;
+}
+
+#Or {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#Or hr {
+	height: 1px;
+	width: 200px;
+	border: none;
+	background: #888;
+}
+
+#Names {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #333;
+}
+
+#PartTwo input {
+	border: none;
+	border-radius: 5px;
+	padding: 12px;
+	background-color: rgb(221, 221, 221);
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#FullName {
+	margin-right: 15px;
+}
+
+#PartTwo h3 {
+	font-weight: 600;
+}
+
+#Account {
+	border: none;
+	border-radius: 5px;
+	background-color: #ea5455;
+	padding: 15px 40px;
+	color: white;
+	max-width: 300px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+
+#Pass input {
+	width: 450px;
+}
+
+.checkbox {
+	position: relative;
+	padding: 15px;
+	cursor: pointer;
+}
+
+#checkbox {
+	display: flex;
+
+	align-items: center;
+	color: #333;
+	padding-left: 0;
+}
+
+#type {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #333;
+}
+
+
